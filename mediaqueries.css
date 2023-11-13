@@ -1,0 +1,54 @@
+@media screen and (max-width: 1100px) {
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .navbar {
+    margin: 0 50px;
+  }
+
+  .navbar-navlinks {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    z-index: 10;
+    display: none;
+    gap: 2rem;
+    font-size: 25px;
+    padding: 20px 20px;
+    background-color: #FFF6E0
+  }
+
+  .navbar-navlinks.open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section {
+    padding: 50px 50px 0 50px;
+  }
+
+  .contact-info-upper-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 15px;
+  }
+
+  .contact-info-container{
+    font-size: 15px;
+  }
+
+  .navlinks {
+    display: flex;
+    gap: 1rem;
+    font-size: 20px;
+  }
+
+  .project-img{
+    max-width: 300px;
+  }
+
+}
