@@ -230,6 +230,14 @@ section{
 }
 
 /*Projects section*/
+
+.all-projects-container{
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .project-container{
   border-radius: 25px;
   border:#272829 solid 1px;
@@ -243,7 +251,8 @@ section{
 .project-img{
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
-  max-width: 400px;
+  width: 400px;
+  height: 200px;
 }
 
 /*Contact section*/
