@@ -254,9 +254,8 @@ section{
   border-top-left-radius: 25px;
   width: 400px;
   height: 200px;
-  object-fit: auto;
   transition: all 0.3s ease-out;
-  border-bottom: solid 1px #b8b7b6;
+  border-bottom: solid 2px #b8b7b6;
 }
 
 .project-img:hover{
